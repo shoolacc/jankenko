@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="NNC!Tw%}rip6fL{o)-_Q">hand</variable><variable id="Iv_r8c,A*^5QeXDXYP`:">list</variable></variables><block type="device_gesture_event" id="J`7gV^?@rDY?+Kkqk=,!" x="0" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="ZdF?BE`oBujkM/Rp!?xq"><field name="VAR" id="NNC!Tw%}rip6fL{o)-_Q">hand</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="g4kK2D42-tU:ANHp5.Q$"><value name="min"><shadow type="math_number" id="M.dXQ{Q=$u*7Sa,(gWYH"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="JIt7a_GB!OXu.DlN3}HA"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="tfkRHss+ZgU#~oo)#0fc"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="V4A0S~n50::A#5eIB//r"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="-)[2H3i.A+U=a/rQ7eI="><field name="VAR" id="NNC!Tw%}rip6fL{o)-_Q">hand</field></block></value><value name="B"><shadow type="math_number" id="$Dk`*1DvCv@gwqsB[{xD"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="fzhs1L_)LBM4i:@l,Bhl"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="I97h:jzA|(!v8,}b`{^N"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="G@0iy4GPo);:ueh*;YMi"><field name="VAR" id="NNC!Tw%}rip6fL{o)-_Q">hand</field></block></value><value name="B"><shadow type="math_number" id="EEhcp2Wh1tn4WK:(Dc~C"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="pClMk;#2(nLyD{5%)L]2"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="`@6L`=!s.:dm^6k`]*Nh"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement></block></next></block></statement></block></xml>
